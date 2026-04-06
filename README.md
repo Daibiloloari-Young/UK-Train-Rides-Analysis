@@ -2,8 +2,8 @@
 An Excel project analyzing UK train ticket sales and operational performance. The dataset includes ticket purchases, pricing, travel details, and operational outcomes such as delays and refunds. The goal is to derive actionable insights to improve revenue, customer experience, and operational efficiency.
 
 ## Table of Contents
-- Project Overview
-- Project Scope
+- [Project Overview](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#project-overview)
+- [Project Scope](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#project-scope)
 - Project Objectives
 - Expected Outcome
 - Document Purpose
@@ -57,12 +57,13 @@ Stakeholders Benefiting from the Analysis
   
 **3. Marketing & Revenue Team**
 - Promote advance tickets to increase early bookings 
-•	Design targeted campaigns for railcard adoption 
-•	Optimize pricing and promotions based on customer preferences
-4. Customer Experience Team
-•	Analyze refund trends to improve service reliability 
-•	Enhance passenger satisfaction by reducing delays 
-•	Understand customer behavior to improve service offerings
+- Design targeted campaigns for railcard adoption 
+- Optimize pricing and promotions based on customer preferences
+  
+**4. Customer Experience Team**
+-	Analyze refund trends to improve service reliability 
+-	Enhance passenger satisfaction by reducing delays 
+-	Understand customer behavior to improve service offerings
 
 This project simulates how a railway company can leverage data analytics to drive operational and revenue decisions for business growth and enhance customer satisfaction.
 
@@ -71,22 +72,23 @@ The dataset for this project is sourced from the Maven Analytics website, design
 
 **Key Fields Include:**
 
-•	Transaction ID: Unique identifier for an individual train ticket purchase
-•	Date & Time of Purchase: Date the ticket was purchased
-•	Ticket Type & Class: Time the ticket was purchased
-•	Payment Type: Whether the ticket was purchased online or directly at a train station
-•	Payment Method: Payment method used to purchase the ticket (Contactless, Credit Card, or Debit Card)
-•	Railcard: Whether the passenger is a National Railcard holder (Adult, Senior, or Disabled) or not (None).
-•	Ticket Class: Seat class for the ticket (Standard or First)
-•	Ticket Type: When you bought or can use the ticket.
-•	Price: Final cost of the ticket in USD
-•	Departure Station: Station to board the train
-•	Arrival Destination: Station to exit the train
-•	Date of Journey: Date the train departed
-•	Departure Time: Time the train departed
-•	Arrival Time: Time the train was scheduled to arrive at its destination (can be on the day after departure)
-•	Actual Arrival Time: Time the train arrived at its destination (can be on the day after departure)
-•	Journey Status: Whether the train was on time, delayed, or cancelled
-•	Reason for Delay: Reason for the delay or cancellation
-•	Refund Request: Whether the passenger requested a refund after a delay or cancellation
+- Transaction ID: Unique identifier for an individual train ticket purchase
+- Date & Time of Purchase: Date the ticket was purchased
+-	Ticket Type & Class: Time the ticket was purchased
+-	Payment Type: Whether the ticket was purchased online or directly at a train station
+-	Payment Method: Payment method used to purchase the ticket (Contactless, Credit Card, or Debit Card)
+-	Railcard: Whether the passenger is a National Railcard holder (Adult, Senior, or Disabled) or not (None).
+-	Ticket Class: Seat class for the ticket (Standard or First)
+-	Ticket Type: When you bought or can use the ticket.
+-	Price: Final cost of the ticket in USD
+-	Departure Station: Station to board the train
+-	Arrival Destination: Station to exit the train
+-	Date of Journey: Date the train departed
+-	Departure Time: Time the train departed
+-	Arrival Time: Time the train was scheduled to arrive at its destination (can be on the day after departure)
+-	Actual Arrival Time: Time the train arrived at its destination (can be on the day after departure)
+-	Journey Status: Whether the train was on time, delayed, or cancelled
+-	Reason for Delay: Reason for the delay or cancellation
+-	Refund Request: Whether the passenger requested a refund after a delay or cancellation
+  
 Each of these variables contributes crucial insights, collectively painting a vivid portrayal of the UK Train Dataset.

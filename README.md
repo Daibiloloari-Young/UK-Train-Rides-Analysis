@@ -9,7 +9,7 @@ An Excel project analyzing UK train ticket sales and operational performance. Th
 - [Document Purpose](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#document-purpose)
 - [Use Case](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#use-case)
 - [Data Source](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-source)
-- [Data Cleaning and Processing]
+- [Data Cleaning and Processing](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-cleaning-and-processing)
 - [Data Analysis]
 - [Data Visualization]
 - [Recommendation]
@@ -92,3 +92,61 @@ The dataset for this project is sourced from the Maven Analytics [website](https
 -	Refund Request: Whether the passenger requested a refund after a delay or cancellation
   
 Each of these variables contributes crucial insights, collectively painting a vivid portrayal of the UK Train Dataset.
+
+## Data Cleaning and Processing
+Ensuring data quality is an important step in any data analysis process, as it directly impacts the accuracy and reliability of insights, making sure they are free from errors. Clean data makes the analysis process smoother, helping researchers, analysts, and decision-makers to draw meaningful conclusions and make informed decisions based on the information. After thoroughly checking the data for quality and suitability, including looking for errors, inconsistencies, missing values, and duplicates. I found that the dataset is well-organized and consistent. However, several preprocessing and transformation steps were carried out to prepare the data for analysis.
+
+**Data Cleaning Steps**
+
+The following checks and cleaning steps were performed:
+
+- **Missing Values Check:**
+The dataset was checked for missing values across all columns. Most of the data was complete.
+However, some columns, like Reason for Delay, had empty cells. These were not errors. They simply mean that the train was not delayed and arrived on time.
+Because of this, the missing values were kept as they are, since they help show the difference between delayed and on-time journeys.
+
+- **Duplicate Records:**
+The dataset was checked for duplicate transaction records using the Transaction ID. No duplicates were identified.
+
+- **Data Type Validation:**
+Ensured all columns had appropriate data types:
+
+- Dates → Date format
+-	Times → Time format
+-	Price → Numeric format
+  
+- **Consistency Check:**
+Verified uniform naming across categorical fields such as:
+
+- Payment Method (e.g., Contactless, Credit Card, Debit Card)
+-	Ticket Type (Advance, Anytime, Off-Peak)
+-	Ticket Class (Standard, First Class)
+The dataset was well-structured and required minimal cleaning.
+
+- **Additional Data Processing Steps**
+- 
+**1. Creation of New Columns**
+To enhance analysis and enable deeper insights, new columns were created:
+
+- Month Column
+Extracted from Date of Purchase using:
+
+=TEXT([Date of Purchase], "MMM")
+Year Column
+Year Column
+Extracted using:
+=YEAR([Date of Purchase])
+
+Why This Was Important
+•	It enabled monthly and yearly trend analysis
+•	Allowed use of slicers for interactive dashboards
+•	Simplified grouping of data for pivot tables
+•	Improved readability compared to the raw date format
+These columns were essential for analyzing sales trends over time and identifying seasonal patterns.
+
+Data Analysis
+The primary aim of this analysis is to derive valuable insights from Pizza Sales Place data by conducting a comprehensive examination of key factors. This multifaceted exploration involves several pivotal objectives. Firstly, it seeks to know the total revenue and the sales trend, and how they change over time. Secondly, the analysis aims to identify the most used payment method by customers. Thirdly, a detailed investigation into the departure stations that generated the most revenue. Fourthly, to know the most used payment method to understand which the customer prefers. Lastly, to know the peak travel time.
+
+Key Benefits Include, Revenue Optimization: Helps identify high-performing stations, ticket types, and peak periods to improve revenue generation, Customer Insights: Identify customer preferences in ticket types, payment methods, and travel times, Service Improvement: It highlights refund patterns and delays, helping to improve service reliability and customer satisfaction, Data-Driven Decision Making: It also enables stakeholders to make informed decisions based on real data rather than assumptions
+As a result, this analysis provides insights addressing the following questions.
+

@@ -4,16 +4,16 @@ An Excel project analyzing UK train ticket sales and operational performance. Th
 ## Table of Contents
 - [Project Overview](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#project-overview)
 - [Project Scope](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#project-scope)
-- Project Objectives
-- Expected Outcome
-- Document Purpose
-- Use Case
-- Data Source
-- Data Cleaning and Processing
-- Data Analysis
-- Data Visualization
-- Recommendation
-- Conclusion
+- [Project Objectives](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis#project-objectives)
+- [Expected Outcome](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#expected-outcome)
+- [Document Purpose](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#document-purpose)
+- [Use Case](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#use-case)
+- [Data Source](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-source)
+- [Data Cleaning and Processing]
+- [Data Analysis]
+- [Data Visualization]
+- [Recommendation]
+- [Conclusion]
 
 ## Project Overview
 This project involves an in-depth analysis of UK train ticket transactions using Microsoft Excel. The analysis focuses on uncovering patterns in revenue, customer purchasing behavior, peak travel periods, and operational challenges, including delays and refunds.
@@ -68,7 +68,7 @@ Stakeholders Benefiting from the Analysis
 This project simulates how a railway company can leverage data analytics to drive operational and revenue decisions for business growth and enhance customer satisfaction.
 
 ## Data Source
-The dataset for this project is sourced from the Maven Analytics website, designed specifically for practice purposes. It is presented in an Excel file with a single table comprising 31,653 rows and 18 columns. The dataset includes key attributes essential for a comprehensive analysis, such as:
+The dataset for this project is sourced from the Maven Analytics [website](https://app.mavenanalytics.io/datasets?search=uk) designed specifically for practice purposes. It is presented in an Excel file with a single table comprising 31,653 rows and 18 columns. The dataset includes key attributes essential for a comprehensive analysis, such as:
 
 **Key Fields Include:**
 

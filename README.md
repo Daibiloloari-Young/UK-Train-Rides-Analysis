@@ -175,7 +175,69 @@ From the analysis above;
 **2. What are the most used payment methods?**
 
 This question aims to understand customers’ preferences when it comes to payment methods. A pivot table was created using Payment Method as rows and Price as values (sum). A column chart was used for visualization.
-![]()
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Sales%20By%20Payment%20Method.png)
+
+From the analysis above;
+-	Credit card is the most used payment method
+-	Contactless payments also account for a large share
+-	Debit card usage is relatively lower
+
+**3. Which ticket types are most popular?**
+
+This question aims to understand the ticket types the customer chooses to purchase. A pivot table was created using Ticket Type as rows and Price (summed) as values, giving the percentage of each ticket type. A pie chart was used to show the distribution.
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Percentage%20By%20Ticket%20Type.png)
+
+From the analysis above;
+-	Advance tickets are the most purchased
+-	Off-peak and Anytime tickets follow
+-	Customers are price-sensitive and prefer discounted tickets
+
+**4. Which ticket class generates the most revenue?**
+
+This question aims to understand the ticket class most customers go for and which generates the highest revenue. A pivot table was created using Ticket Class and Price (sum). A column chart was used for visualization.
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Sales%20By%20Ticket%20Class.png)
+
+From the analysis above;
+-	Standard class generates the majority of revenue
+-	First class contributes less
+-	Most passengers prioritize affordability over luxury
+
+**5. Which stations generate the most revenue?**
+
+This question aims to understand the top major stations used by customers that contribute significantly to total revenue, highlighting the importance of urban transit hubs. A pivot table was created using Departure Station and Price (sum). A bar chart was used to highlight top stations.
+
+To enhance clarity and focus on significant insights, the filter pane was employed to display only the top 5 departure stations determined by Price.
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Top%205%20Departure%20Station.png)
+
+From the analysis above;
+-	Major stations such as London Kings Cross, London Euston, and Liverpool Lime Street contribute significantly to total revenue
 
 
+**6. What are the peak travel times?**
 
+The primary aim of this question is to identify the specific travel time when customers travel. Understanding peak hours is crucial.
+
+To achieve this, a pivot table was created. The time column was placed in the row section, which was set to hours, and transaction_id was placed in the value section to count the number of transactions. The results were visualized using a column chart.
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Peak%20Travel%20Time.png)
+
+From the analysis above;
+-	Peak travel time occurs in the evening, especially around 7 PM
+-	Morning hours also show high activity
+-	Travel demand is highest during commuting hours
+ 
+
+**7. KPI Metrics Creation**
+
+To support quick insights on the dashboard, key performance indicators (KPIs) were created using Pivot Tables.
+-	Total Refund Requests:
+Calculated by counting the number of refund requests to measure customer dissatisfaction and service issues.
+-	Total Departure Stations:
+Calculated by counting the number of unique departure stations to understand how widely the service operates.
+These KPIs were designed to give a high-level overview of operational performance and customer behavior, making it easier for stakeholders to quickly assess key trends without going through detailed charts.
+
+**Dashboard Visualization**

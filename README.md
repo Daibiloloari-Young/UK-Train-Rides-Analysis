@@ -241,3 +241,24 @@ Calculated by counting the number of unique departure stations to understand how
 These KPIs were designed to give a high-level overview of operational performance and customer behavior, making it easier for stakeholders to quickly assess key trends without going through detailed charts.
 
 **Dashboard Visualization**
+
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/UK%20Train%20Rides%20Dashboard.png)
+
+## Recommendation
+
+-	Based on the provided analysis, here are several recommendations for Pizza Sales Place:
+-	Monitoring refund trends can help identify pain points in the customer journey and guide improvements in service delivery. 
+-	Delays and refund requests indicate areas of service disruption. Addressing common causes of delays can improve customer satisfaction and reduce refund rates. 
+-	Since most ticket purchases occur in the evening (around 7 PM), the system should be optimized to handle high traffic during this period to avoid delays or failed transactions. 
+-	Stations with high ticket sales should be prioritized for better resource allocation, staffing, and service improvements. 
+-	Insights on ticket types and purchase behavior can be used to design better pricing strategies and promotional offers.
+
+## Conclusion
+
+By Implementing these recommendations, UK Train Rides can help improve operational efficiency, increase revenue, and enhance overall customer satisfaction. 
+
+I am open to Data Analyst roles in an organization where I can showcase my skills, take more responsibilities, grow professionally, and contribute to data-driven decision-making.
+Thank you for reading.
+
+You can reach me on ```daibi616@gmail.com
+

@@ -10,7 +10,7 @@ An Excel project analyzing UK train ticket sales and operational performance. Th
 - [Use Case](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#use-case)
 - [Data Source](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-source)
 - [Data Cleaning and Processing](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-cleaning-and-processing)
-- [Data Analysis]
+- [Data Analysis](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-analysis)
 - [Data Visualization]
 - [Recommendation]
 - [Conclusion]
@@ -94,6 +94,7 @@ The dataset for this project is sourced from the Maven Analytics [website](https
 Each of these variables contributes crucial insights, collectively painting a vivid portrayal of the UK Train Dataset.
 
 ## Data Cleaning and Processing
+
 Ensuring data quality is an important step in any data analysis process, as it directly impacts the accuracy and reliability of insights, making sure they are free from errors. Clean data makes the analysis process smoother, helping researchers, analysts, and decision-makers to draw meaningful conclusions and make informed decisions based on the information. After thoroughly checking the data for quality and suitability, including looking for errors, inconsistencies, missing values, and duplicates. I found that the dataset is well-organized and consistent. However, several preprocessing and transformation steps were carried out to prepare the data for analysis.
 
 **Data Cleaning Steps**
@@ -154,15 +155,27 @@ The primary aim of this analysis is to derive valuable insights from Pizza Sales
 Key Benefits Include, Revenue Optimization: Helps identify high-performing stations, ticket types, and peak periods to improve revenue generation, Customer Insights: Identify customer preferences in ticket types, payment methods, and travel times, Service Improvement: It highlights refund patterns and delays, helping to improve service reliability and customer satisfaction, Data-Driven Decision Making: It also enables stakeholders to make informed decisions based on real data rather than assumptions
 As a result, this analysis provides insights addressing the following questions.
 
-## What is the total revenue and sales trend?
+**1. What is the total revenue and sales trend?**
+
 This question aims to assess the total annual revenue and identify any sales patterns that vary over time. This helps understand the financial performance of the UK Train Rides and reveals seasonal trends, providing insights into how sales fluctuate throughout the year.
 
 To understand revenue performance, a pivot table was created using the Month column in the rows and Price in the values section (summed). A line chart was used to visualize the monthly sales trend. This visualization provides a clear picture of sales dynamics over the year, highlighting any recurring patterns or anomalies that require attention.
 
 **Total Revenue: $741,921**
 
-Seasonality in Sales.
+**Seasonality in Sales.**
 
+![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/Monthly%20Sales%20Trend.png)
+
+From the analysis above;
+-	Revenue is highest in the early months of the year, particularly in January
+-	There is a noticeable fluctuation in revenue across the months
+-	A decline is observed toward the end of the year
+
+**2. What are the most used payment methods?**
+
+This question aims to understand customers’ preferences when it comes to payment methods. A pivot table was created using Payment Method as rows and Price as values (sum). A column chart was used for visualization.
 ![]()
+
 
 

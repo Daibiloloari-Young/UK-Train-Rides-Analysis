@@ -11,9 +11,9 @@ An Excel project analyzing UK train ticket sales and operational performance. Th
 - [Data Source](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-source)
 - [Data Cleaning and Processing](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-cleaning-and-processing)
 - [Data Analysis](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#data-analysis)
-- [Data Visualization]
-- [Recommendation]
-- [Conclusion]
+- [Data Visualization](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#dashboard-visualization)
+- [Recommendation](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#recommendation)
+- [Conclusion](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/edit/main/README.md#conclusion)
 
 ## Project Overview
 This project involves an in-depth analysis of UK train ticket transactions using Microsoft Excel. The analysis focuses on uncovering patterns in revenue, customer purchasing behavior, peak travel periods, and operational challenges, including delays and refunds.
@@ -240,7 +240,7 @@ Calculated by counting the number of refund requests to measure customer dissati
 Calculated by counting the number of unique departure stations to understand how widely the service operates.
 These KPIs were designed to give a high-level overview of operational performance and customer behavior, making it easier for stakeholders to quickly assess key trends without going through detailed charts.
 
-**Dashboard Visualization**
+## Dashboard Visualization
 
 ![](https://github.com/Daibiloloari-Young/UK-Train-Rides-Analysis/blob/main/UK%20Train%20Rides%20Dashboard.png)
 
@@ -260,5 +260,5 @@ By Implementing these recommendations, UK Train Rides can help improve operation
 I am open to Data Analyst roles in an organization where I can showcase my skills, take more responsibilities, grow professionally, and contribute to data-driven decision-making.
 Thank you for reading.
 
-You can reach me on ```daibi616@gmail.com
+You can reach me on ```daibi616@gmail.com```
 

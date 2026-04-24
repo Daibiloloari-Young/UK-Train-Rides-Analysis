@@ -260,5 +260,5 @@ By Implementing these recommendations, UK Train Rides can help improve operation
 I am open to Data Analyst roles in an organization where I can showcase my skills, take more responsibilities, grow professionally, and contribute to data-driven decision-making.
 Thank you for reading.
 
-You can reach me on (daibi616@gmail.com)
+You can reach me on daibi616@gmail.com
 
